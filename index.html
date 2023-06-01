@@ -83,9 +83,36 @@
 
 <!---底部---->
 <div class="footer">
-    <div class="clearfix"></div>
-<p><a href="https://cubetec.cc/">©CubeYu</a>
-❤️2020-2023</p>
+						Copyright © 2018-2023 cubeyu
+<!--开往和虫洞-->
+<div style="display:flex;justify-content:center;">
+<a href="https://cubetec.cc/" target="_blank" rel="noopener" title="开往-作者">
+    <img src="https://www.travellings.cn/assets/w.png" alt="开往-友链接力" width="120">
+</a>
+<a href="https://www.cubetec.cc/" target="_blank"> <img src="https://img.foreverblog.cn/wormhole_2_tp.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"></a>
+</div>
+<span id="blog_time"><span class="my-face">::&gt;_&lt;::</span>网站已在各种灾难中运行了：1776天</span>
+<script type="text/javascript">
+
+    function runtime(){
+        // 初始时间
+        X = new Date("2020/07/21 14:07:25");
+        Y = new Date();
+        T = (Y.getTime()-X.getTime());
+        M = 24*60*60*1000;
+        a = T/M;
+        A = Math.floor(a);
+        b = (a-A)*24;
+        B = Math.floor(b);
+        c = (b-B)*60;
+        C = Math.floor((b-B)*60);
+        D = Math.floor((c-C)*60);
+        //信息写入到DIV中
+        document.getElementById("blog_time").innerHTML = "<span class='my-face'>::>_<::</span>网站已在各种灾难中运行了："+A+"天"
+    }
+    setInterval(runtime, 1000);
+</script>
+<p>❤️2020-2023</p>
 </div>
 </body>
 </html>
